@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Meesha Fabrics | Courier Portal</title>
-    <script>
-        // Yeh line aapke GitHub page ko direct Google Script par bhej degi bina kisi error ke
-        window.location.href = "https://script.google.com/macros/s/AKfycbxVeOVwQIeqpP9HQfhgVY2UMiBAgM0yghjnDY9vpN-tlhpoPqTBN0-eXvM1ojLGWOaW/exec";
-    </script>
+    <title>Meesha Fabrics | Enterprise Portal</title>
+    <style>
+        /* Full screen layout setup */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #020617; /* Meesha Fabrics Premium Theme Dark Color */
+        }
+        
+        /* Secure iframe style without permission blocks */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
 </head>
 <body>
-    <p style="text-align: center; margin-top: 50px; font-family: Arial, sans-serif; color: white;">
-        Loading Courier Portal, please wait...
-    </p>
+
+    <!-- New Google Web App URL Integration -->
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbxVeOVwQIeqpP9HQfhgVY2UMiBAgM0yghjnDY9vpN-tlhpoPqTBN0-eXvM1ojLGWOaW/exec"
+        allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; decryption; encrypted-media; picture-in-picture">
+    </iframe>
+
 </body>
 </html>
